@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+}
+
+.request {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #04AA6D;
+    border: none;
+    color: whitesmoke;
+}
+
+.request:hover{
+    background-color: #3e8e41;
+}
+
+.request:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+form {
+    margin: 20px;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.flex2 {
+    margin-top : 20px;
+    text-align: left;
+    float: left;
+}
+
+.instruction-margin {
+    margin: 10px 0 10px 10px;
+}
+
+.video {
+    margin-top: 20px;
+    float: right;
+}
